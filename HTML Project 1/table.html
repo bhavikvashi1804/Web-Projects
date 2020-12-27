@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Table</title>
+  </head>
+  <body>
+    <h1>Let's play with Tables</h1>
+    <h2>Simple Table</h2>
+    <table border="2px" style="width: 100%;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+               <td>Bhavik Vashi</td>
+               <td>24</td>
+               <td>Ankleshwar</td>
+           </tr>
+           <tr>
+                <td>Raj Patel</td>
+                <td>21</td>
+                <td>Bharuch</td>
+            </tr>
+            <tr>
+                <td>Bhargav Shah</td>
+                <td>23</td>
+                <td>Vadodara</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Row Span</h2>
+    <table border="1">
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+          <th>Savings for holiday!</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+          <td rowspan="2">$50</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </table>
+      <hr>
+      <h2>Col Span</h2>
+      <table border="1">
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+        <tr>
+          <td colspan="2">Sum: $180</td>
+        </tr>
+      </table>
+  </body>
+</html>
