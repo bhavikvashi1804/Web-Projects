@@ -113,3 +113,32 @@ header {
     color: #ffffff;
     border: none;
 }
+
+
+#feature-section {
+    padding-top: 100px;
+}
+.feature-section-title {
+    width: 75%;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.5em;
+    margin: auto;
+}
+.feature-content {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+}
+.feature-content .col-3 img {
+    width: 100%; 
+}
+.feature-content .col-3 p {
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+.feature-content .col-3 {
+    padding: 10px;
+    width: 30%;
+}
