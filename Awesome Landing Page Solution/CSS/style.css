@@ -2,8 +2,14 @@ html {
     font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 body {
-    background-color: aquamarine; 
+    background-color: darkseagreen; 
     margin: 0;
+}
+p {
+    color: #5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 header {
     height: 80px;
