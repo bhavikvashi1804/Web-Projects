@@ -2,7 +2,7 @@ html {
     font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 body {
-    background-color: darkseagreen; 
+    background-color: rgb(137, 183, 197); 
     margin: 0;
 }
 p {
@@ -147,4 +147,25 @@ header {
 .feature-content .col-3 {
     padding: 10px;
     width: 30%;
+}
+
+
+.col-2 {
+    float: left;
+    width: 48%;
+}
+#showcase1-container {
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+    
+}
+.showcase1pic {
+    width: 100%;   
 }
