@@ -23,3 +23,14 @@ div{
     font-weight: bold;
     color: green;
 }
+
+h1.red{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.red{
+    color: red;
+}
