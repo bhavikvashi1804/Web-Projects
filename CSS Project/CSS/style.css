@@ -6,3 +6,12 @@ div{
     padding: 10px;
     background-color: magenta;
 }
+
+.odd{
+    padding: 10px;
+    background-color: magenta;
+}
+.even{
+    padding: 10px;
+    background-color: gold;
+}
