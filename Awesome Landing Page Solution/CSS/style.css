@@ -47,3 +47,33 @@ header {
     font-size: 17px;
     float: right;
 }
+
+
+#top-section-main {
+    background-image: url(../Images/Friends.png);
+    height: 740px;
+    border: none;
+}
+#top-section-content {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+#top-section-content p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    
+}
