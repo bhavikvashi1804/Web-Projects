@@ -15,3 +15,11 @@ div{
     padding: 10px;
     background-color: gold;
 }
+
+#heading-text{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: green;
+}
