@@ -169,3 +169,31 @@ header {
 .showcase1pic {
     width: 100%;   
 }
+
+.feature-text {
+    padding-top: 300px;
+    padding-left: 50px;
+}
+
+.section-title {
+    width: 70%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.section-left {
+    width: 70%;
+    padding: 20px 10px 10px 10px;
+    margin: auto;
+}
+#showcase2-container {
+    padding-top: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    clear: both;
+}
+
+.col-1 {
+    width: 80%;
+    margin: auto;
+}
