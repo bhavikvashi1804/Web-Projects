@@ -3,16 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>After Print</title>
+        <title>Before Print</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <script>
-        function myFunction(){
-            alert("The Document is printed");
-        }
-    </script>
-    <body onafterprint="myFunction()">
-        Print this document
+    <body onbeforeprint="myFunction()">
+        Please print this document
+
+
+        <script>
+            function myFunction(){
+                alert("This document is now being printed");
+            }
+        </script>
     </body>
 </html>
