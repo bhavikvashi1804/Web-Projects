@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
-<body onbeforeunload="return myFunction()">
+  <head>
+    <title>onhashchange</title>
+  </head>
+  <body onbeforeunload="return myFunction()">
+    <p>
+      Close this window, press F5 or click on the link below to invoke the
+      onbeforeunload event.
+    </p>
 
-<p>Close this window, press F5 or click on the link below to invoke the onbeforeunload event.</p>
+    <a href="https://www.amazon.in">Amazon</a>
 
-<a href="https://www.amazon.in">Amazon</a>
-  
-<script>
-function myFunction() {
-  return "Write something clever here...";
-}
-</script>
-
-</body>
+    <script>
+      function myFunction() {
+        return "Write something clever here...";
+      }
+    </script>
+  </body>
 </html>
