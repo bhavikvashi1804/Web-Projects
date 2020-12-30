@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>onkeyup</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script>
+            function myFunction(){
+                var name = document.getElementById("name");
+                name.value = name.value.toUpperCase();
+            }
+        </script>
+    </head>
+    <body>
+        Event get triggered when user releases a key in the text field
+        <input type="text" id="name" onkeyup="myFunction()" />
+    </body>
+</html>
