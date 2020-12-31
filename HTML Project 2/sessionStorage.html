@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>local Storage</title>
+    <script>
+      function clickCounter() {
+        if (typeof Storage !== "undefined") {
+          if (sessionStorage.counter) {
+            //retrive and update
+            sessionStorage.counter = Number(sessionStorage.counter) + 1;
+          } else {
+            //store
+            sessionStorage.counter = 1;
+          }
+          document.getElementById("result").innerHTML =
+            "You have clicked the button " +
+            sessionStorage.counter +
+            " time(s).";
+        } else {
+          document.getElementById("result").innerHTML =
+            "Sorry, your browser does not support web storage...";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+    <div id="result"></div>
+    <p>Click the button to see the counter increase.</p>
+    <p>Close the browser tab (or window) counter will be reset</p>
+  </body>
+</html>
