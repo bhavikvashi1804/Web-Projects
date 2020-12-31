@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ondragstart</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            function onDragStart(x){
+                x.style.backgroundColor ="red";
+            }
+        </script>
+       
+    </head>
+    <body>
+        <div 
+        id="myDiv"
+        style="width: 100px; height: 100px; background-color: aqua;"
+        draggable="true" 
+        ondragstart="onDragStart(this)">
+            <p>Drag this Div</p>
+        </div>
+    </body>
+</html>

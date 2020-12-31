@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ondrag/ondragend</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            function onDrag(x){
+                x.style.backgroundColor ="red";
+            }
+            function onDragEnd(x){
+                x.style.backgroundColor ="blue"; 
+            }
+        </script>
+       
+    </head>
+    <body>
+        <div 
+        id="myDiv"
+        style="width: 100px; height: 100px; background-color: aqua;"
+        draggable="true" 
+        ondrag="onDrag(this)"
+        ondragend="onDragEnd(this)">
+            <p>Drag this Div</p>
+        </div>
+    </body>
+</html>
