@@ -3,15 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>onmouseover/onmouseout</title>
+        <title>onmousemove</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script>
-            function onMouseOver(x){
+            function onMouseMove(x){
                 x.style.backgroundColor ="red";
-            }
-            function onMouseOut(x){
-                x.style.backgroundColor ="green";   
             }
         </script>
        
@@ -20,10 +17,8 @@
         <div 
         id="myDiv"
         style="width: 100%; height: 100px; background-color: aqua;" 
-        onmouseover="onMouseOver(this)"
-        onmouseout="onMouseOut(this)">
-            <p>onmouseover: when mouse hover</p>
-            <p>onmouseout: when mouse hover ends</p>
+        onmousemove="onMouseMove(this)">
+            <p>onmousemover: when mouse hover</p>
         </div>
 
         
