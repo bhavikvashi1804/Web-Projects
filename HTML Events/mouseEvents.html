@@ -1,56 +1,73 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Mouse Events</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script>
-            $(function(){
-            $("#nav-placeholder").load("nav.html");
-            });
-        </script>
-    </head>
-    <body>
-        <div id="nav-placeholder">
-        </div>
-        <div class="container-fluid p-3  bg-primary text-white ">
-            <h5>HTML Mouse Events</h5>
-            <p>Triggered when mouse property got changed</p>
-        </div>
-        <div class="container-fluid p-3 ">
-            <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>Event</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                   <tr>
-                       <td><a href="./MouseEvents/onClick.html">onclick</a></td>
-                       <td>
-                           <ul>
-                               <li>On Mouse Click</li>
-                           </ul>
-                       </td>
-                   </tr>
-                   <tr>
-                    <td><a href="./MouseEvents/ondblclick.html">ondblclick</a></td>
-                    <td>
-                        <ul>
-                            <li>On Mouse  Double Click</li>
-                        </ul>
-                    </td>
-                </tr>
-
-                </tbody>
-              </table>
-        </div>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Mouse Events</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+    <div class="container-fluid p-3 bg-primary text-white">
+      <h5>HTML Mouse Events</h5>
+      <p>Triggered when mouse property got changed</p>
+    </div>
+    <div class="container-fluid p-3">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="./MouseEvents/onClick.html">onclick</a></td>
+            <td>
+              <ul>
+                <li>On Mouse Click</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="./MouseEvents/ondblclick.html">ondblclick</a></td>
+            <td>
+              <ul>
+                <li>On Mouse Double Click</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="./MouseEvents/onMouseDownAndUp.html">onmousedown</a></td>
+            <td>
+              <ul>
+                <li>Mouse Left button is pressed and not released</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="./MouseEvents/onMouseDownAndUp.html">onmouseup</a></td>
+            <td>
+              <ul>
+                <li>Mouse Left button is released</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
