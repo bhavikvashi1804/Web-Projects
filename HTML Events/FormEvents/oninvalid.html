@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>oninvalid</title>
+  </head>
+  <body>
+    <form>
+        <input 
+        placeholder="Enter your pincode"
+        pattern="[0-9]{6}"
+        oninvalid="alert('Please enter 6 digit number');"
+        type="text" />
+
+        <input
+        type="submit"
+        name="submit"
+        />
+
+    </form>
+
+    
+  </body>
+</html>
