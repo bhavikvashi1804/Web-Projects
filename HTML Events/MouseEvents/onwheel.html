@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>onwheel</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            function onWheel(x){
+                x.style.backgroundColor ="red";
+            }
+        </script>
+       
+    </head>
+    <body>
+        <div 
+        id="myDiv"
+        style="width: 100%; height: 100px; background-color: aqua;" 
+        onwheel="onWheel(this)">
+            <p>onwheen: when scroll by mouse wheel</p>
+        </div>
+    </body>
+</html>
