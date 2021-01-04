@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>element.style.property</title>
+    </head>
+    <body>
+        <div
+            id="myDiv"
+            style="width: 100px; height: 100px; background-color: blue;"
+        >
+            
+        </div>
+
+        <button onclick="myFunction()">Change the background color</button>
+        
+        <script>
+            function myFunction(){
+                var myDiv = document.getElementById("myDiv");
+                myDiv.style.backgroundColor = "red";
+            }
+        </script>
+    </body>
+</html>
