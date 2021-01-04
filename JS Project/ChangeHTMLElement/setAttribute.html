@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>element.setAttribute()</title>
+    </head>
+    <body>
+        <a id="amazon">Amazon</a>
+
+        <button onclick="myFunction()">Add a link</button>
+        
+        <script>
+            function myFunction(){
+                var link = document.getElementById("amazon");
+                link.setAttribute("href","https://www.amazon.in");
+            }
+        </script>
+    </body>
+</html>
