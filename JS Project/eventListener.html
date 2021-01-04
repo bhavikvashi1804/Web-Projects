@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Event Listener</title>
+    </head>
+    <body>
+        <button id="alert">Alert</button>
+
+        <button onclick="myFunction()">Add Event Listener</button>
+        
+        <script>
+            function myFunction(){
+                document.getElementById("alert").onclick = function(){
+                    alert("Event listener added");
+                }   
+            }
+        </script>
+    </body>
+</html>
