@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS DOM Methods</title>
+       
+    </head>
+    <body>
+        <ul>
+            <li><a>Amazon</a></li>
+            <li><a>Ebay</a></li>
+            <li><a>Flipkart</a></li>
+            <li><a>Croma</a></li>
+        </ul>
+        <script>
+            var myLinks = document.getElementsByTagName("a");
+            for(var i=0;i<myLinks.length;i++){
+                myLinks[i].onclick = function(){
+                    this.style.backgroundColor = "#fff123"
+                }
+            }
+
+        </script>
+    </body>
+</html>
