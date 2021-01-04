@@ -1,24 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <body>
-
-    <ul id="myList">
-      <li>Coffee</li>
-      <li>Tea</li>
-      <li>Milk</li>
-    </ul>
-
-    <p>Click the button to remove the first item from the list.</p>
-
-    <button onclick="myFunction()">Try it</button>
-
-    <script>
-      function myFunction() {
-        var list = document.getElementById("myList");
-        list.removeChild(list.childNodes[0]);
-        alert("1st Element deleted");
-        console.log(list.childNodes[0]);
-      }
-    </script>
-  </body>
-</html>
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title> 
+			HTML DOM removeChild() Method 
+		</title> 
+	</head> 
+	
+	<body>  
+		
+		<h2> 
+			DOM removeChild() Method 
+		</h2> 
+		
+		<p>Sorting Algorithm</p> 
+		<ul id = "listitem"><li>Insertion sort</li> 
+			<li>Merge sort</li> 
+			<li>Quick sort</li> 
+		</ul> 
+		
+		<button onclick = "Geeks()"> 
+			Click Here! 
+		</button> 
+	
+		<script> 
+			function Geeks() { 
+				var doc = document.getElementById("listitem"); 
+				doc.removeChild(doc.childNodes[0]); 
+			} 
+		</script> 
+	
+	</body> 
+</html>					 
