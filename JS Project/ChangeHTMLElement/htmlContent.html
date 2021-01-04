@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>innerHTMLs</title>
+        <script>
+            function myFunction(){
+                var myPara = document.getElementById("myPara");
+                myPara.innerHTML = "New data";
+            }
+        </script>
+    </head>
+    <body>
+        <div>Click on the button to change the text</div>
+        <p id="myPara">
+            Old data
+        </p>
+
+        <button onclick="myFunction()">Click</button>
+        
+    </body>
+</html>
