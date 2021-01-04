@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>getElementByClassName</title>
+       
+    </head>
+    <body>
+        <ul>
+            <li><a class="shop">Amazon</a></li>
+            <li><a class="shop">Ebay</a></li>
+            <li><a class="shop">Flipkart</a></li>
+            <li><a>Croma</a></li>
+        </ul>
+
+        <button onclick="myFunction()">Online Stores</button>
+        <script>
+            function myFunction(){
+                var onlineStores = document.getElementsByClassName("shop");
+                var listOfStores = [];
+                for(var i=0;i<onlineStores.length;i++){
+                   listOfStores.push(onlineStores[i].innerHTML);
+                }
+
+                var message = "";
+                for(var i=0;i<listOfStores.length;i++){
+                    message+=listOfStores[i]+" ";
+                }
+
+                alert(message);
+            }
+            
+
+        </script>
+    </body>
+</html>
