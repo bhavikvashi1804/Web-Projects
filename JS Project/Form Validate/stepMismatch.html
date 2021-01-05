@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>stepMismatch</title>
+    </head>
+    <body>
+        <input  id="num1" type="number" min="0" step="10" max="1000">
+        <button type="button" onclick="myFunction()">Submit</button>
+
+        <div id="result"></div>
+
+        <script>
+            function myFunction(){
+                var numInput = document.getElementById("num1");
+                var message= "";
+                if(numInput.validity.stepMismatch){
+                    message = "Please enter the input in 10x"
+                }
+                document.getElementById("result").innerHTML = message;
+            }
+        </script>
+    </body>
+</html>
