@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>rangeUnderflow</title>
+    </head>
+    <body>
+        min is set to 10
+    
+        <input type="number" id="num1" min="10">
+        <button type="button" onclick="myFunction()">Submit</button>
+       
+        <div id="error"></div>
+
+        <script>
+            function myFunction(){
+                var message="",input;
+                input = document.getElementById("num1");
+                if(input.validity.rangeUnderflow){
+                    message="Please provide value 10 or more"
+                    
+                }
+                document.getElementById("error").innerHTML = message;
+            }
+        </script>
+    </body>
+</html>
